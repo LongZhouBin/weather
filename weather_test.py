@@ -23,7 +23,7 @@ class Example(QMainWindow, Ui_MainWindow):
         print(rep.json())
         msg1 = '城市：%s' % rep.json()['weatherinfo']['city']+'\n'
         msg2 = '风向：%s' % rep.json()['weatherinfo']['WD']+'\n'
-        msg3 = '温度：%s' % rep.json()['weatherinfo']['temp']+'度'+'\n'
+        msg3 = '温度：%s' % rep.json()['weatherinfo']['temp']+'摄氏度'+'\n'
         msg4 = '湿度：%s' % rep.json()['weatherinfo']['SD'] + '\n'
         msg5 = '风力：%s' % rep.json()['weatherinfo']['WS'] + '\n'
         result = msg1+ msg2+ msg3+ msg4+ msg5
