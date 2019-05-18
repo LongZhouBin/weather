@@ -36,8 +36,8 @@ class Example(QMainWindow, Ui_MainWindow):
             return '101020100'
         elif city == "天津":
             return '101030100'
-        elif city == "广东":
-            return '101440100'
+        elif city == "广州":
+            return '101280101'
 
     def clearQueryResult(self):
         self.textEdit_result.setText('')

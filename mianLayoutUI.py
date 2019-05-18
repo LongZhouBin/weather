@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "查询城市天气"))
         self.label_2.setText(_translate("MainWindow", "城市"))
         self.comboBox_city.setItemText(0, _translate("MainWindow", "北京"))
-        self.comboBox_city.setItemText(1, _translate("MainWindow", "广东"))
-        self.comboBox_city.setItemText(2, _translate("MainWindow", "上海"))
-        self.comboBox_city.setItemText(3, _translate("MainWindow", "天津"))
+        self.comboBox_city.setItemText(1, _translate("MainWindow", "上海"))
+        self.comboBox_city.setItemText(2, _translate("MainWindow", "天津"))
+        self.comboBox_city.setItemText(3, _translate("MainWindow", "广州"))
 

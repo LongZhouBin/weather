@@ -128,17 +128,17 @@
        </item>
        <item>
         <property name="text">
-         <string>广东</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>上海</string>
         </property>
        </item>
        <item>
         <property name="text">
          <string>天津</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>广州</string>
         </property>
        </item>
       </widget>
