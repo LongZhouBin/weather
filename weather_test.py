@@ -36,7 +36,7 @@ class Example(QMainWindow, Ui_MainWindow):
             return '101020100'
         elif city == "天津":
             return '101030100'
-        elif city == "广州":
+        elif city == "广州的天":
             return '101280101'
 
     def clearQueryResult(self):
